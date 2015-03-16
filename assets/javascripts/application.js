@@ -1,4 +1,4 @@
-myApp = new Backbone.Marionette.Application();
+MyApp = new Backbone.Marionette.Application();
 
 //Region corresponds to area used in application
 MyApp.addRegions({
