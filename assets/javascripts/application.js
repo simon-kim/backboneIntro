@@ -44,7 +44,7 @@ Drinks = Backbone.Collection.extend({
     var rank = 1;
     _.each(drinks, function(drink) {
       drink.rank = rank;
-      rank++;
+      ++rank;
     });
 
     //Error handler and listens to collection's "add" event
