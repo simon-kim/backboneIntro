@@ -67,7 +67,6 @@ Drinks = Backbone.Collection.extend({
       }
       self.rankUp(drink);
       self.sort();
-      self.trigger("reset");
     });
 
     MyApp.on("rank:down", function(drink){
@@ -77,7 +76,6 @@ Drinks = Backbone.Collection.extend({
       }
       self.rankDown(drink);
       self.sort();
-      self.trigger("reset");
     });
 
     //When drink is removed, goes through each drink ranked below it and reduces rank by 1
