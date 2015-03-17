@@ -42,7 +42,7 @@ Drinks = Backbone.Collection.extend({
   //Sets proper rank when creating a collection
   initialize: function(drinks){
     var rank = 1;
-    _.each(cats, function(drink) {
+    _.each(drinks, function(drink) {
       drink.set('rank', rank);
       ++rank;
     });
