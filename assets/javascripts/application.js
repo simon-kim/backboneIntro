@@ -193,9 +193,9 @@ MyApp.addInitializer(function(options){
 //Once DOM is ready, create collection of drinks populated by drink models we create
 $(document).ready(function(){
   var drinks = new Drinks([
-    { name: 'Whisky', image_path: 'assets/images/Whisky.jpg' },
-    { name: 'AMF', image_path: 'assets/images/AMF.jpg' },
-    { name: 'Mojito', image_path: 'assets/images/Mojito.jpg' }
+    new Drink({ name: 'Whisky', image_path: 'assets/images/Whisky.jpg' }),
+    new Drink({ name: 'AMF', image_path: 'assets/images/AMF.jpg' }),
+    new Drink({ name: 'Mojito', image_path: 'assets/images/Mojito.jpg' })
   ]);
 
   MyApp.start({drinks: drinks});
