@@ -1,4 +1,6 @@
 # backboneIntro
+Live demo can be seen/used here: http://simon-kim.github.io/backboneIntro/
+
 A simple Backbone.js and Marionette.js intro using David Sulc's tutorial on his blogsite:
 http://davidsulc.com/blog/2012/04/15/a-simple-backbone-marionette-tutorial/
 
