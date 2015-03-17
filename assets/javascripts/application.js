@@ -122,7 +122,7 @@ Drinks = Backbone.Collection.extend({
 //Don't have to declare a render method because Backbone.Marionette takes care of it for us
 //ItemView represents a single item
 DrinkView = Backbone.Marionette.ItemView.extend({
-  template: "#drinks-template",
+  template: "#drink-template",
   tagName: 'tr',
   className: 'drink',
 
